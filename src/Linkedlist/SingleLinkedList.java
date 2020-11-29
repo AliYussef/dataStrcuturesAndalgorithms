@@ -67,6 +67,7 @@ public class SingleLinkedList {
             tempNode.setNext(node); //update reference of tempNode to reference to new node
             node.setNext(nextNode); //update newly added nodes' next.
         }
+        size++;
     }
 
     public boolean existsLinkedList() {
