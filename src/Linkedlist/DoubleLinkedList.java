@@ -1,5 +1,7 @@
 package Linkedlist;
 
+import Node.DoubleNode;
+
 public class DoubleLinkedList {
     private DoubleNode head;
     private DoubleNode tail;

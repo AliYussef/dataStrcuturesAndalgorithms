@@ -1,4 +1,4 @@
-package Linkedlist;
+package Node;
 
 public class DoubleNode {
     private DoubleNode next;

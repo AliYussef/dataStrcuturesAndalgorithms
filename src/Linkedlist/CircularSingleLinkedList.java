@@ -1,5 +1,7 @@
 package Linkedlist;
 
+import Node.SingleNode;
+
 public class CircularSingleLinkedList {
     private SingleNode head;
     private SingleNode tail;
