@@ -127,7 +127,7 @@ public class BinaryTreeByLinkedList {
         while (!queue.isEmpty()) {
             previousNode = presentNode;
             presentNode = queue.remove();
-            if (presentNode.getLeft() == null) {
+            if (presentNode.getLeft() == null) { // as we always put in left first
                 previousNode.setRight(null);
                 return;
             } else if ((presentNode.getRight() == null)) {
