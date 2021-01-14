@@ -72,7 +72,7 @@ public class AVLTree {
             if (checkBalance(currentNode.getLeft().getLeft(), currentNode.getLeft().getRight()) > 0) {
                 currentNode = rightRotate(currentNode);// LL Condition if balance is positive > 0
             } else {
-                currentNode.setLeft(leftRotate(currentNode.getLeft())); // LR Condition is balance is negative < 0
+                currentNode.setLeft(leftRotate(currentNode.getLeft())); // LR Condition if balance is negative < 0
                 currentNode = rightRotate(currentNode);
             }
         } else if (balance < -1) { // if right-subtree is overloaded
